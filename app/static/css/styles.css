@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+    position: relative;
+    text-align: center;
+    
+}
+
+label{
+    font-family: Helvetica;
+    font-size: 20px;
+}
+
+input{
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6rem;
+    width: 250px; /* Adjust width as needed */
+    margin-bottom: 10px;
+}
+
+.cordi{
+    background-color: rgb(242,113,27,0.5);
+    position: absolute;
+    margin: 15rem 0 0 3rem;
+    padding: 3rem;
+    border-radius: 2rem;
+    
+}
+
+h1 {
+    position: absolute;
+    font-family: Monospace;
+    font-size: 4rem;
+    text-align: center;
+    
+}
+
+h1{
+    position: absolute;
+    left: 35%;
+    top: 5%;
+}
+
+.nav{
+    display: flex;
+    gap: 3rem;
+    padding: 2rem;
+    align-items: center;
+    justify-content: center;
+    font-family: Bahnschrift SemiBold;
+    background-color:  #FFFDD0;
+    
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
